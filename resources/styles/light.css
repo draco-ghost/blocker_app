@@ -1,0 +1,672 @@
+* {
+    border: none;
+    background-color: transparent;
+    background: none;
+    color: black;
+    font-weight: bold;
+}
+
+QToolTip {
+    background-color: rgba(50, 50, 50, 230);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 5px;
+}
+
+#content_cont #info_menu_thm {
+    color: #009dff;
+}
+
+#content_cont {
+    background: #ffffff;
+}
+
+QSizeGrip {
+    image: url(:/main_icons/icons/resize.svg);
+    width: 16px;
+    height: 16px;
+}
+
+QMenu {
+    background: #bdbdbd;
+    padding: 5px;
+    border: 2px solid #999999;
+    color: black;
+}
+
+QMenu::item {
+    padding: 6px 20px;
+    background-color: transparent;
+}
+
+QMenu::item:checked {
+    background-color: #000000;
+    color: white;
+    border-radius: 15px;
+}
+
+#app_bar #win_resize QPushButton:hover {
+    background-color: #4d4d4d;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+#app_bar #win_resize_2 QPushButton:hover {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+#app_bar #win_e QPushButton:hover {
+    background-color: #ff1a1a;
+    color: white;
+}
+
+#sidebar {
+    background: #ffffff;
+}
+
+QWidget#sidebar[collapsed="true"] {
+    background: #ffffff;
+}
+
+QWidget#sidebar[collapsed="false"] {
+    background: #bdbdbd;
+}
+
+#app_bar {
+    background: #ffffff;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+#app_bar #win_control {
+    background: #999999;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+#contents_items {
+    border-top-left-radius: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+#resize_l {
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+#resize_l QPushButton {
+    border: 2px solid #999999;
+    background: #999999;
+    padding: 5px 0px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#widget_resize {
+    background-color: #ffffff;
+}
+
+#size_grip_placeholder {
+    background: #999999;
+}
+
+#sidebar QPushButton {
+    border: 2px solid #999999;
+    background: #999999;
+    padding: 5px 10px;
+    border-radius: 15px;
+    /* border-top-left-radius: 15px
+     border-bottom-left-radius: 15px */
+}
+
+#sidebar QPushButton:hover {
+    border-color: #333333;
+    background: #4d4d4d;
+}
+
+#sidebar QPushButton:checked {
+    border-color: #ff0080;
+}
+
+#sidebar QPushButton:checked:hover {
+    border-color: #009dff;
+}
+
+#ct_siteUrl {
+    background: #ffffff;
+    color: black;
+    font-size: 15px;
+    min-height: 28px;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    padding: 5px 5px;
+    min-height: 29px
+}
+
+#Form QPushButton {
+    background-color: #bdbdbd;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 2px 30px;
+    color: black;
+}
+
+#Form QPushButton:hover {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+#Form QPushButton:disabled {
+    background: #f2f2f2;
+    color: #cccccc;
+}
+
+#manage_Form QScrollArea {
+    background: #ffffff;
+}
+
+QScrollArea QWidget {
+    background: #ffffff;
+}
+
+#manage_Form #widget_4 {
+    background: #ffffff;
+}
+
+#manage_Form #widget_5 QLabel {
+    color: #009dff;
+}
+
+#widget_4 QPushButton {
+    background: #999999;
+    border: 2px solid #999999;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+#widget_4 QPushButton:hover {
+    background-color: #666666;
+    border: 2px solid #666666;
+    color: white;
+}
+
+#blocked_Form QWidget {
+    background: #999999;
+}
+
+#blocked_Form QPushButton {
+    background: #cccccc;
+    padding: 0px 30px;
+    min-height: 28px;
+}
+
+/* Vertical */
+QScrollBar:vertical {
+    background: #ffffff;
+    width: 14px;
+    margin: 0px 0 0px 0;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:vertical {
+    background: #666666;
+    min-height: 20px;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #999999;
+}
+
+QScrollBar::add-line:vertical {
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: #ffffff;
+    border-radius: 7px;
+}
+
+/* Horizontal */
+QScrollBar:horizontal {
+    background: #ffffff;
+    width: 14px;
+    margin: 0px 0 0px 0;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #666666;
+    min-height: 20px;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #999999;
+}
+
+QScrollBar::add-line:horizontal {
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal {
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: #ffffff;
+    border-radius: 7px;
+}
+
+#Dialog_form {
+    background: #595959;
+    color: white;
+}
+
+#Dialog_form #d_bar {
+    border: 2px solid #8c8c8c;
+    border-width: 0px 0px 2px 0px; /* 1st 0px top, 2nd 0px right, 3rd 2px bottom, 4th 2px left */
+}
+
+#Dialog_form QWidget {
+    color: white;
+}
+
+#Dialog_form #d_bar QPushButton {
+    border: none;
+    background: #595959;
+}
+
+#Dialog_form #d_bar QPushButton:hover {
+    background-color: #ff1a1a;
+    color: white;
+}
+
+#Dialog_form #dialog_textEdit {
+    background: #bdbdbd;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    font-size: 14px;
+    color: black;
+    padding: 2px 5px;
+    min-height: 29px
+}
+
+#ok_widget QPushButton {
+    background: #666666;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    color: white;
+    min-width: 70px;
+    min-height: 28px;
+}
+
+#ok_widget QPushButton:hover {
+    background: #009dff;
+    border: 2px solid #009dff;
+    color: white;
+}
+
+#cancel_widget QPushButton {
+    background: #800000;
+    border: 2px solid #800000;
+    border-radius: 15px;
+    color: white;
+    min-width: 90px;
+    min-height: 28px;
+}
+
+#cancel_widget QPushButton:hover {
+    background: #e60000;
+    border: 2px solid #e60000;
+    color: white;
+}
+
+QTabWidget#prefTab {
+    background: #ffffff;
+}
+
+QTabWidget#prefTab::pane {
+    border: 0;
+}
+
+QTabBar::tab {
+    background: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border: 1px solid #bdbdbd;
+    border-bottom: 0;
+}
+
+QTabBar::tab:hover {
+    background: #bdbdbd;
+    color: #ff0080;
+}
+
+QTabBar::tab:selected {
+    background: #4d4d4d;
+    color: white;
+    border: 1px solid #4d4d4d;
+}
+
+#Pref_Form QFrame {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+#Pref_Form QComboBox {
+    background: #bdbdbd;
+    border: 2px solid #4d4d4d;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 14px;
+    padding: 6px 20px;
+    color: white;
+}
+
+#Pref_Form QComboBox QPushButton {
+    border: none;
+}
+
+#Pref_Form QComboBox QAbstractItemView {
+    background-color: #666666;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #76797C;
+}
+
+#Pref_Form #pref_info_msg {
+    background: transparent;
+}
+
+#pref_cont QPushButton {
+    background: #bdbdbd;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    color: black;
+    padding: 0px 30px;
+    min-height: 28px;
+}
+
+#pref_cont QPushButton:hover {
+    background: #4d4d4d;
+    border: 2px solid #4d4d4d;
+    color: white;
+}
+
+#pref_cont QPushButton:checked {
+    border-color: #009dff;
+    background: #4d4d4d;
+    color: white;
+}
+
+#pref_cont QPushButton:checked:hover {
+    border-color: #262626;
+}
+
+#Pref_Form QCheckBox {
+    background: transparent;
+}
+
+#Pref_Form QSpinBox {
+    padding: 2px 15px;
+    background: #bdbdbd;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: black;
+}
+
+#Sec_Form #widget_2 QPushButton {
+    background: #bdbdbd;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    color: black;
+    padding: 0px 30px;
+    min-height: 28px;
+}
+
+#Sec_Form #widget_2 QPushButton:hover {
+    background: #4d4d4d;
+    border: 2px solid #4d4d4d;
+    color: white;
+}
+
+#Sec_Form #widget_2 QPushButton:disabled {
+    background: #d9d9d9;
+    border: 2px solid #d9d9d9;
+    border-radius: 15px;
+    color: #bdbdbd;
+    padding: 0px 30px;
+    min-height: 28px;
+}
+
+#Dialog_set QFrame {
+    background: #d9d9d9;
+}
+
+#Dialog_set #d_bar {
+    border: 2px solid #8c8c8c;
+    border-width: 0px 0px 2px 0px; /* 1st 0px top, 2nd 0px right, 3rd 2px bottom, 4th 2px left */
+    color: black;
+}
+
+#Dialog_set #dialog_passTxt {
+    background: #bdbdbd;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+#Dialog_set #pb_dialog_e {
+    border: none;
+}
+
+#Dialog_set #pb_dialog_e:hover {
+    background: #ff1a1a;
+    color: white;
+}
+
+#Dialog_res QFrame {
+    background: #d9d9d9;
+}
+
+#Dialog_res #d_bar {
+    border: 2px solid #8c8c8c;
+    border-width: 0px 0px 2px 0px; /* 1st 0px top, 2nd 0px right, 3rd 2px bottom, 4th 2px left */
+    color: black;
+}
+
+#Dialog_res #d_bar QPushButton {
+    border: none;
+}
+
+#Dialog_res #d_bar QPushButton:hover {
+    background: #ff1a1a;
+    color: white;
+}
+
+#Dialog_res QTextEdit {
+    background: #bdbdbd;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+#about_Form QScrollArea {
+    background: #bdbdbd;
+}
+
+#about_Form QFrame {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+#about_Form #pref_card_2 QWidget {
+    background: transparent;
+}
+
+#about_Form #pref_card_5 QWidget {
+    background: transparent;
+}
+
+#link_app QPushButton {
+    border: none;
+    padding: 0px 10px;
+}
+
+#link_app:hover,
+#link_app_2:hover {
+    color: #ff0080;
+    border: 2px solid #ff0080;
+    border-width: 0px 0px 2px 0px;
+}
+
+#Dialog_cus_font QWidget {
+    background: #595959;
+    border: 2px solid #000000;
+}
+
+#Dialog_cus_font QFrame {
+    background: #bdbdbd;
+    border: none;
+}
+
+#Dialog_cus_font #cus_d_bar QFrame {
+    background: #595959;
+    color: white;
+}
+
+#Dialog_cus_font #cus_d_bar {
+    background: #595959;
+}
+
+#Dialog_cus_font QPushButton {
+    background: #595959;;
+    border: none;
+}
+
+#Dialog_cus_font #cus_d_bar QPushButton:hover {
+    background-color: #ff1a1a;
+    color: white;
+}
+
+#Dialog_cus_font QComboBox {
+    background: #595959;
+    border: 2px solid #666666;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 14px;
+    padding: 6px 1px;
+    color: white;
+}
+
+#Dialog_cus_font QComboBox QPushButton {
+    border: none;
+}
+
+#Dialog_cus_font QComboBox QAbstractItemView {
+    background-color: #595959;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #76797C;
+}
+
+#Dialog_cus_font #add_cus_font {
+    background: #666666;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    color: white;
+    padding: 0px 30px;
+    min-width: 100px;
+    min-height: 28px;
+}
+
+#Dialog_cus_font #add_cus_font:hover {
+    background: #009dff;
+    border: 2px solid #009dff;
+    color: white;
+}
+
+#Dialog_cus_font #ok_widget {
+    background: #666666;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    color: white;
+    min-width: 70px;
+    min-height: 28px;
+}
+
+#Dialog_cus_font #ok_widget:hover {
+    background: #009dff;
+    border: 2px solid #009dff;
+    color: white;
+}
+
+#Dialog_cus_font #cancel_widget {
+    background: #800000;
+    border: 2px solid #800000;
+    border-radius: 15px;
+    color: white;
+    min-width: 90px;
+    min-height: 28px;
+}
+
+#Dialog_cus_font #cancel_widget:hover {
+    background: #e60000;
+    border: 2px solid #e60000;
+    color: white;
+}
+
+#Sup_Form #widget_3 QPushButton {
+    border: none;
+    background: transparent;
+}
+
+#Sup_Form #widget_card {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+#Sup_Form QFrame {
+    border: none;
+    background: transparent;
+}
+
+#Sup_Form #pref_card_2 QPushButton {
+    border: none;
+    background: #bdbdbd;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 20px;
+    min-height: 30px;
+}
+
+#Sup_Form #pref_card_2 QPushButton:hover {
+    background: #4d4d4d;
+    color: white;
+}
+
+#Sup_Form #pref_card_3 QPushButton {
+    border: none;
+    background: transparent;
+}
