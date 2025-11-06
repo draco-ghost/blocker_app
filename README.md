@@ -27,7 +27,7 @@ Once a website is blocked, it cannot be accessed until you manually unblock it. 
 
 If you like BlockerApp and want to support its development:
 
-- Donate on Ko-fi: [https://ko-fi.com/draco_ghost](https://ko-fi.com/draco_ghost)
+- Donate on: [Ko-fi](https://ko-fi.com/draco_ghost)
 - Supporters will get **access to full source code** hosted in a private Github repository.
 
 Your support helps fund future features and improvements! 🎉
