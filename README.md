@@ -40,4 +40,3 @@ Your support helps fund future features and improvements! 🎉
 
 ---
 
-## license
