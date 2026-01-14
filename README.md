@@ -36,7 +36,7 @@ Your support helps fund future features and improvements! 🎉
 
 ## Notes
 - Windows only (for now & tested on windows 10/11)
-- First release; feedback is welcome via GitHub Issues
+- First release: feedback is welcome via GitHub Issues
 
 ---
 
